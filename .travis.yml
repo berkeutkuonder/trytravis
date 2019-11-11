@@ -1,12 +1,10 @@
 language: android
 dist: trusty
 android:
-     components:
-          - tools
-          - android-29
-          - build-tools-29.0.2
-      
-      script:
+    components:
+        - tools
+        - android-29
+        - build-tools-29.0.2
+    script:
         - chmod +x gradlew
         - ./gradlew build
-
