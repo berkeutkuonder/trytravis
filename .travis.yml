@@ -1,4 +1,5 @@
 matrix:
+  install: gradle wrapper --gradle-version 5.0.1
   include:
     - language: node_js
       node_js:
